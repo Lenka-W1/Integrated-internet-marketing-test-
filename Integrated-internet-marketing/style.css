@@ -264,7 +264,6 @@ body {
 
 .basement {
   width: 100%;
-  border: 1px solid yellow;
   height: 483px;
   display: flex;
   justify-content: space-between;
@@ -274,7 +273,6 @@ body {
 
 .basement-top-block {
   height: 352px;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
 }
@@ -282,7 +280,6 @@ body {
 .contact-block {
   width: 228px;
   height: 327px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -291,19 +288,25 @@ body {
 .sales-block {
   width: 228px;
   height: 352px;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .development-block {
   width: 210px;
   height: 280px;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .additional-info-block {
   width: 188px;
   height: 280px;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .basement-bottom-block {
@@ -311,7 +314,16 @@ body {
   height: 51px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  align-items: center;
+  border-top: 1px solid #ffffff15;
+}
+
+.basement-bottom-block span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+  opacity: 0.3;
 }
 
 .logo-white {
@@ -362,8 +374,35 @@ body {
 
 .vkontakte {
   background-image: url('./image/cib_vk.svg');
+  cursor: pointer;
 }
 
 .telegram {
   background-image: url('./image/fa_telegram.svg');
+  cursor: pointer;
+}
+
+.list-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.list {
+  width: 100%;
+  height: 288px;
+  list-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 170%;
+  color: #ffffff;
+}
+
+.development-list,
+.list-of-additional-info {
+  height: 216px;
 }
