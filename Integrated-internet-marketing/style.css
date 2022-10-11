@@ -19,7 +19,8 @@ body {
 
 .top-block-header,
 .navigation,
-.service-order {
+.service-order,
+.basement-wrapper {
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -246,4 +247,123 @@ body {
 .audit:hover {
   border: 1px solid #ff5900;
   color: #ff5900;;
+}
+
+.footer {
+  height: 583px;
+}
+
+.basement-wrapper {
+  height: 100%;
+  display: flex;
+}
+
+.footer {
+  background-color: #333333;
+}
+
+.basement {
+  width: 100%;
+  border: 1px solid yellow;
+  height: 483px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.basement-top-block {
+  height: 352px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-block {
+  width: 228px;
+  height: 327px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sales-block {
+  width: 228px;
+  height: 352px;
+  border: 1px solid red;
+}
+
+.development-block {
+  width: 210px;
+  height: 280px;
+  border: 1px solid red;
+}
+
+.additional-info-block {
+  width: 188px;
+  height: 280px;
+  border: 1px solid red;
+}
+
+.basement-bottom-block {
+  width: 100%;
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.logo-white {
+  background-image: url('./image/logo_white.svg');
+}
+
+.info-list {
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.region,
+.city,
+.address,
+.document {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 170%;
+  color: #ffffff;
+}
+
+.region,
+.document {
+  opacity: 0.5;
+}
+
+.city {
+  color: #ffffff;
+}
+
+.social-networks {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 100%;
+  background-size: 100%;
+}
+
+.vkontakte {
+  background-image: url('./image/cib_vk.svg');
+}
+
+.telegram {
+  background-image: url('./image/fa_telegram.svg');
 }
